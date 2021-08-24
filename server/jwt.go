@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nats-io/jwt/v2"
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-jwt/v2"
+	"github.com/itsabgr/nats-nkeys"
 )
 
 // All JWTs once encoded start with this

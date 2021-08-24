@@ -36,7 +36,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nats-server/v2/server/sysmem"
+	"github.com/itsabgr/nats-server/v2/server/sysmem"
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/nuid"
 )
@@ -5498,7 +5498,7 @@ func TestJetStreamRedeliverAndLateAck(t *testing.T) {
 	}
 }
 
-// https://github.com/nats-io/nats-server/issues/1502
+// https://github.com/itsabgr/nats-server/issues/1502
 func TestJetStreamPendingNextTimer(t *testing.T) {
 	s := RunBasicJetStreamServer()
 	defer s.Shutdown()
@@ -10710,7 +10710,7 @@ func TestJetStreamAccountImportAll(t *testing.T) {
 	}
 }
 
-// https://github.com/nats-io/nats-server/issues/1736
+// https://github.com/itsabgr/nats-server/issues/1736
 func TestJetStreamServerReload(t *testing.T) {
 	conf := createConfFile(t, []byte(`
 		listen: 127.0.0.1:-1
@@ -11036,7 +11036,7 @@ func TestJetStreamGetLastMsgBySubject(t *testing.T) {
 	}
 }
 
-// https://github.com/nats-io/nats-server/issues/2329
+// https://github.com/itsabgr/nats-server/issues/2329
 func TestJetStreamGetLastMsgBySubjectAfterUpdate(t *testing.T) {
 	c := createJetStreamClusterExplicit(t, "JSC", 3)
 	defer c.shutdown()
@@ -11163,7 +11163,7 @@ func TestJetStreamLastSequenceBySubject(t *testing.T) {
 	}
 }
 
-// https://github.com/nats-io/nats-server/issues/2314
+// https://github.com/itsabgr/nats-server/issues/2314
 func TestJetStreamMaxMsgsPerAndDiscardNew(t *testing.T) {
 	for _, st := range []StorageType{FileStorage, MemoryStorage} {
 		t.Run(st.String(), func(t *testing.T) {
@@ -11904,7 +11904,7 @@ func TestJetStreamDirectConsumersBeingReported(t *testing.T) {
 	}
 }
 
-// https://github.com/nats-io/nats-server/issues/2290
+// https://github.com/itsabgr/nats-server/issues/2290
 func TestJetStreamTemplatedErrorsBug(t *testing.T) {
 	s := RunBasicJetStreamServer()
 	defer s.Shutdown()

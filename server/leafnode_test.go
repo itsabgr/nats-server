@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-nkeys"
 
-	jwt "github.com/nats-io/jwt/v2"
+	jwt "github.com/itsabgr/nats-jwt/v2"
 	"github.com/nats-io/nats.go"
 )
 

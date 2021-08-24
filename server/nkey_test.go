@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-nkeys"
 )
 
 // Nonce has to be a string since we used different encoding by default than json.Unmarshal.

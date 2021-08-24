@@ -34,7 +34,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-nkeys"
 	"github.com/nats-io/nuid"
 )
 

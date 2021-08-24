@@ -33,8 +33,8 @@ import (
 	"time"
 
 	"github.com/minio/highwayhash"
-	"github.com/nats-io/nats-server/v2/server/sysmem"
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-server/v2/server/sysmem"
+	"github.com/itsabgr/nats-nkeys"
 	"github.com/nats-io/nuid"
 	"golang.org/x/crypto/chacha20poly1305"
 )

@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nats-server/v2/server"
+	"github.com/itsabgr/nats-server/v2/server"
 	"github.com/nats-io/nats.go"
 )
 
@@ -214,7 +214,7 @@ func TestAccountCycleServiceNonCycleChain(t *testing.T) {
 	}
 }
 
-// bug: https://github.com/nats-io/nats-server/issues/1769
+// bug: https://github.com/itsabgr/nats-server/issues/1769
 func TestServiceImportReplyMatchCycle(t *testing.T) {
 	conf := createConfFile(t, []byte(`
 		port: -1

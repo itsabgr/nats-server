@@ -1994,7 +1994,7 @@ func TestFileStoreWriteFailures(t *testing.T) {
 	// This test should be run inside an environment where this directory
 	// has a limited size.
 	// E.g. Docker
-	// docker run -ti --tmpfs /jswf_test:rw,size=32k --rm -v ~/Development/go/src:/go/src -w /go/src/github.com/nats-io/nats-server/ golang:1.16 /bin/bash
+	// docker run -ti --tmpfs /jswf_test:rw,size=32k --rm -v ~/Development/go/src:/go/src -w /go/src/github.com/itsabgr/nats-server/ golang:1.16 /bin/bash
 	tdir := path.Join("/", "jswf_test")
 	if stat, err := os.Stat(tdir); err != nil || !stat.IsDir() {
 		t.SkipNow()
@@ -2835,7 +2835,7 @@ func TestFileStoreStreamDeleteCacheBug(t *testing.T) {
 	}
 }
 
-// https://github.com/nats-io/nats-server/issues/2068
+// https://github.com/itsabgr/nats-server/issues/2068
 func TestFileStoreStreamPurgeAndDirtyRestartBug(t *testing.T) {
 	storeDir := createDir(t, JetStreamStoreDir)
 	defer removeDir(t, storeDir)

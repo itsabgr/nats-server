@@ -31,15 +31,15 @@ If you are interested in contributing to NATS, read about our...
 [Slack-Url]: https://join.slack.com/t/natsio/shared_invite/zt-41e6tnmb-qCt63606MKR1YxIHZf4ICA
 [Fossa-Url]: https://app.fossa.io/projects/git%2Bgithub.com%2Fnats-io%2Fnats-server?ref=badge_shield
 [Fossa-Image]: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnats-io%2Fnats-server.svg?type=shield
-[Build-Status-Url]: https://travis-ci.com/github/nats-io/nats-server
-[Build-Status-Image]: https://travis-ci.com/nats-io/nats-server.svg?branch=main
-[Release-Url]: https://github.com/nats-io/nats-server/releases/tag/v2.3.4
+[Build-Status-Url]: https://travis-ci.com/github/itsabgr/nats-server
+[Build-Status-Image]: https://travis-ci.com/itsabgr/nats-server.svg?branch=main
+[Release-Url]: https://github.com/itsabgr/nats-server/releases/tag/v2.3.4
 [Release-image]: https://img.shields.io/badge/release-v2.3.4-1eb0fc.svg
-[Coverage-Url]: https://coveralls.io/r/nats-io/nats-server?branch=main
-[Coverage-image]: https://coveralls.io/repos/github/nats-io/nats-server/badge.svg?branch=main
-[ReportCard-Url]: https://goreportcard.com/report/nats-io/nats-server
-[ReportCard-Image]: https://goreportcard.com/badge/github.com/nats-io/nats-server
-[github-release]: https://github.com/nats-io/nats-server/releases/
+[Coverage-Url]: https://coveralls.io/r/itsabgr/nats-server?branch=main
+[Coverage-image]: https://coveralls.io/repos/github/itsabgr/nats-server/badge.svg?branch=main
+[ReportCard-Url]: https://goreportcard.com/report/itsabgr/nats-server
+[ReportCard-Image]: https://goreportcard.com/badge/github.com/itsabgr/nats-server
+[github-release]: https://github.com/itsabgr/nats-server/releases/
 
 ## Security
 

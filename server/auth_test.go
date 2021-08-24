@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nats-io/jwt/v2"
+	"github.com/itsabgr/nats-jwt/v2"
 )
 
 func TestUserCloneNilPermissions(t *testing.T) {

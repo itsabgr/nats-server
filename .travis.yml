@@ -15,11 +15,11 @@ addons:
     - rpm
 env:
 - GO111MODULE=off
-go_import_path: github.com/nats-io/nats-server
+go_import_path: github.com/itsabgr/nats-server
 install:
 - go get github.com/nats-io/nats.go/
-- go get github.com/nats-io/nkeys
-- go get github.com/nats-io/jwt
+- go get github.com/itsabgr/nats-nkeys
+- go get github.com/itsabgr/nats-jwt
 - go get -u honnef.co/go/tools/cmd/staticcheck
 - go get -u github.com/client9/misspell/cmd/misspell
 before_script:

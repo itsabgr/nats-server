@@ -28,9 +28,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nats-io/jwt/v2"
-	"github.com/nats-io/nats-server/v2/internal/ldap"
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-jwt/v2"
+	"github.com/itsabgr/nats-server/v2/internal/ldap"
+	"github.com/itsabgr/nats-nkeys"
 	"golang.org/x/crypto/bcrypt"
 )
 

@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/jwt/v2"
+	"github.com/itsabgr/nats-jwt/v2"
 	"github.com/nats-io/nats.go"
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-nkeys"
 )
 
 func TestMaxPayload(t *testing.T) {

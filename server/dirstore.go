@@ -28,7 +28,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nats-io/jwt/v2" // only used to decode, not for storage
+	"github.com/itsabgr/nats-jwt/v2" // only used to decode, not for storage
 )
 
 const (

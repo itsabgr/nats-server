@@ -32,9 +32,9 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/nats-io/jwt/v2"
+	"github.com/itsabgr/nats-jwt/v2"
 	"github.com/nats-io/nats.go"
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-nkeys"
 )
 
 const CLIENT_PORT = -1
@@ -198,7 +198,7 @@ func pollVarz(t *testing.T, s *Server, mode int, url string, opts *VarzOptions) 
 	return v
 }
 
-// https://github.com/nats-io/nats-server/issues/2170
+// https://github.com/itsabgr/nats-server/issues/2170
 // Just the ever increasing subs part.
 func TestVarzSubscriptionsResetProperly(t *testing.T) {
 	// Run with JS to create a bunch of subs to start.

@@ -32,7 +32,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nats-io/jwt/v2"
+	"github.com/itsabgr/nats-jwt/v2"
 )
 
 // Type of client connection.
@@ -5073,7 +5073,7 @@ func (c *client) doTLSHandshake(typ string, solicit bool, url *url.URL, tlsConfi
 	if err = conn.Handshake(); err != nil {
 		if solicit {
 			// Based on type of error, possibly clear the saved tlsName
-			// See: https://github.com/nats-io/nats-server/issues/1256
+			// See: https://github.com/itsabgr/nats-server/issues/1256
 			if _, ok := err.(x509.HostnameError); ok {
 				if host == tlsName {
 					resetTLSName = true

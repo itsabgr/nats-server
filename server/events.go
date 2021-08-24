@@ -28,8 +28,8 @@ import (
 	"time"
 
 	"github.com/klauspost/compress/s2"
-	"github.com/nats-io/jwt/v2"
-	"github.com/nats-io/nats-server/v2/server/pse"
+	"github.com/itsabgr/nats-jwt/v2"
+	"github.com/itsabgr/nats-server/v2/server/pse"
 )
 
 const (
