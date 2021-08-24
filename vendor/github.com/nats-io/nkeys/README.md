@@ -1,10 +1,10 @@
 # NKEYS
 
 [![License Apache 2](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![ReportCard](http://goreportcard.com/badge/nats-io/nkeys)](http://goreportcard.com/report/nats-io/nkeys)
-[![Build Status](https://travis-ci.org/nats-io/nkeys.svg?branch=master)](http://travis-ci.org/nats-io/nkeys)
-[![GoDoc](http://godoc.org/github.com/nats-io/nkeys?status.svg)](http://godoc.org/github.com/nats-io/nkeys)
-[![Coverage Status](https://coveralls.io/repos/github/nats-io/nkeys/badge.svg?branch=master&service=github)](https://coveralls.io/github/nats-io/nkeys?branch=master)
+[![ReportCard](http://goreportcard.com/badge/itsabgr/nats-server)](http://goreportcard.com/report/itsabgr/nats-server)
+[![Build Status](https://travis-ci.org/itsabgr/nats-server.svg?branch=master)](http://travis-ci.org/itsabgr/nats-server)
+[![GoDoc](http://godoc.org/github.com/itsabgr/nats-server?status.svg)](http://godoc.org/github.com/itsabgr/nats-server)
+[![Coverage Status](https://coveralls.io/repos/github/itsabgr/nats-server/badge.svg?branch=master&service=github)](https://coveralls.io/github/itsabgr/nats-server?branch=master)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnats-io%2Fnkeys.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnats-io%2Fnkeys?ref=badge_shield)
 
 A public-key signature system based on [Ed25519](https://ed25519.cr.yp.to/) for the NATS ecosystem.
@@ -23,11 +23,11 @@ Dealing with 32 byte and 64 byte raw keys can be challenging. NKEYS is designed 
 
 Use the `go` command:
 
-	$ go get github.com/nats-io/nkeys
+	$ go get github.com/itsabgr/nats-server
 
 ## nk - Command Line Utility
 
-Located under the nk [directory](https://github.com/nats-io/nkeys/tree/master/nk).
+Located under the nk [directory](https://github.com/itsabgr/nats-server/tree/master/nk).
 
 ## Basic API Usage
 ```go

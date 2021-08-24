@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-server"
 )
 
 // ClaimType is used to indicate the type of JWT being stored in a Claim

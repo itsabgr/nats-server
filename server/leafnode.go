@@ -34,7 +34,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-server"
 	"github.com/nats-io/nuid"
 )
 
@@ -754,7 +754,7 @@ func (s *Server) createLeafNode(conn net.Conn, remote *leafNodeCfg) *client {
 				// If we overrode and used the saved tlsName but that failed
 				// we will clear that here. This is for the case that another server
 				// does not have the same tlsName, maybe only IPs.
-				// https://github.com/nats-io/nats-server/issues/1256
+				// https://github.com/itsabgr/nats-server/issues/1256
 				if _, ok := err.(x509.HostnameError); ok {
 					remote.Lock()
 					if host == remote.tlsName {

@@ -37,9 +37,9 @@ import (
 	// Allow dynamic profiling.
 	_ "net/http/pprof"
 
-	"github.com/nats-io/jwt"
-	"github.com/nats-io/nats-server/v2/logger"
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-server"
+	"github.com/itsabgr/nats-server/v2/logger"
+	"github.com/itsabgr/nats-server"
 )
 
 const (

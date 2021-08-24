@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-server"
 )
 
 // DecorateJWT returns a decorated JWT that describes the kind of JWT

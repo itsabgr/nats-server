@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nats-server/v2/server"
+	"github.com/itsabgr/nats-server/v2/server"
 )
 
 // So we can pass tests and benchmarks..

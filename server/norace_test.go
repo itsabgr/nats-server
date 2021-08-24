@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/jwt"
+	"github.com/itsabgr/nats-server"
 	"github.com/nats-io/nats.go"
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-server"
 )
 
 // IMPORTANT: Tests in this file are not executed when running with the -race flag.

@@ -24,7 +24,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nats-io/jwt"
+	"github.com/itsabgr/nats-server"
 )
 
 // FlagSnapshot captures the server options as specified by CLI flags at

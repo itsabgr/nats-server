@@ -15,7 +15,7 @@
 
 package jwt
 
-import "github.com/nats-io/nkeys"
+import "github.com/itsabgr/nats-server"
 
 // GenericClaims can be used to read a JWT as a map for any non-generic fields
 type GenericClaims struct {

@@ -18,7 +18,7 @@ package jwt
 import (
 	"errors"
 
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-server"
 )
 
 // Cluster stores the cluster specific elements of a cluster JWT

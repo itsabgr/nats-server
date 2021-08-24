@@ -32,9 +32,9 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/nats-io/jwt"
+	"github.com/itsabgr/nats-server"
 	"github.com/nats-io/nats.go"
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-server"
 )
 
 const CLIENT_PORT = -1

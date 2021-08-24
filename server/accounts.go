@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nats-io/jwt"
+	"github.com/itsabgr/nats-server"
 )
 
 // For backwards compatibility with NATS < 2.0, users who are not explicitly defined into an

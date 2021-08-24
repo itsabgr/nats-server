@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/jwt"
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-server"
+	"github.com/itsabgr/nats-server"
 )
 
 var (

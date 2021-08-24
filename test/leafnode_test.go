@@ -31,11 +31,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/jwt"
-	"github.com/nats-io/nats-server/v2/logger"
-	"github.com/nats-io/nats-server/v2/server"
+	"github.com/itsabgr/nats-server"
+	"github.com/itsabgr/nats-server/v2/logger"
+	"github.com/itsabgr/nats-server/v2/server"
 	"github.com/nats-io/nats.go"
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-server"
 	"github.com/nats-io/nuid"
 )
 
@@ -3184,7 +3184,7 @@ func TestClusterTLSMixedIPAndDNS(t *testing.T) {
 }
 
 // This will test for a bug in stream export/import with leafnodes.
-// https://github.com/nats-io/nats-server/issues/1332
+// https://github.com/itsabgr/nats-server/issues/1332
 func TestStreamExportWithMultipleAccounts(t *testing.T) {
 	confA := createConfFile(t, []byte(`
 		listen: 127.0.0.1:-1
@@ -3260,7 +3260,7 @@ func TestStreamExportWithMultipleAccounts(t *testing.T) {
 }
 
 // This will test for a bug in service export/import with leafnodes.
-// https://github.com/nats-io/nats-server/issues/1336
+// https://github.com/itsabgr/nats-server/issues/1336
 func TestServiceExportWithMultipleAccounts(t *testing.T) {
 	confA := createConfFile(t, []byte(`
 		server_name: A
@@ -3345,7 +3345,7 @@ func TestServiceExportWithMultipleAccounts(t *testing.T) {
 }
 
 // This will test for a bug in service export/import with leafnode restart.
-// https://github.com/nats-io/nats-server/issues/1344
+// https://github.com/itsabgr/nats-server/issues/1344
 func TestServiceExportWithLeafnodeRestart(t *testing.T) {
 	confG := createConfFile(t, []byte(`
 		server_name: G

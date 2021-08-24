@@ -12,7 +12,7 @@ A [Go](http://golang.org) client for the [NATS messaging system](https://nats.io
 go get github.com/nats-io/nats.go/
 
 # Server
-go get github.com/nats-io/nats-server
+go get github.com/itsabgr/nats-server
 ```
 
 When using or transitioning to Go modules support:
@@ -23,10 +23,10 @@ go get github.com/nats-io/nats.go/@latest
 go get github.com/nats-io/nats.go/@v1.10.0
 
 # For latest NATS Server, add /v2 at the end
-go get github.com/nats-io/nats-server/v2
+go get github.com/itsabgr/nats-server/v2
 
 # NATS Server v1 is installed otherwise
-# go get github.com/nats-io/nats-server
+# go get github.com/itsabgr/nats-server
 ```
 
 ## Basic Usage

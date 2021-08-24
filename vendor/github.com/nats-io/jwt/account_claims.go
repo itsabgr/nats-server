@@ -20,7 +20,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-server"
 )
 
 // NoLimit is used to indicate a limit field is unlimited in value.

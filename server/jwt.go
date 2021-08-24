@@ -19,8 +19,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/nats-io/jwt"
-	"github.com/nats-io/nkeys"
+	"github.com/itsabgr/nats-server"
+	"github.com/itsabgr/nats-server"
 )
 
 var nscDecoratedRe = regexp.MustCompile(`\s*(?:(?:[-]{3,}[^\n]*[-]{3,}\n)(.+)(?:\n\s*[-]{3,}[^\n]*[-]{3,}[\n]*))`)
