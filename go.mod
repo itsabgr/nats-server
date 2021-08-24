@@ -1,6 +1,6 @@
 module github.com/itsabgr/nats-server/v2
 
-go 1.14
+go 1.16
 
 require (
 	github.com/itsabgr/nats-jwt/v2 v2.4.1

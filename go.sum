@@ -231,10 +231,6 @@ github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANyt
 github.com/influxdata/influxdb1-client v0.0.0-20191209144304-8bf82d3c094d/go.mod h1:qj24IKcXYK6Iy9ceXlo3Tc+vtHo9lIhSX5JddghvEPo=
 github.com/itsabgr/nats-jwt v0.4.1 h1:8kUY/saCWtHvIwV6E+QOTI/MwHuKVirxb5E1e30n2DE=
 github.com/itsabgr/nats-jwt v0.4.1/go.mod h1:36f7OROU2IUa2lbaexfyvb9o+vnjdaKb2w5cwDX7f4o=
-github.com/itsabgr/nats-jwt v1.2.2 h1:nxsCt2HuMnkxqFd+WkloVH4U9941WvWUi9zhGV3E68Y=
-github.com/itsabgr/nats-jwt v1.4.1 h1:oD3DUUHTfMj6Znct38CrtIDCQi6SfcNPLobDzYGy11g=
-github.com/itsabgr/nats-jwt/v2 v2.1.1 h1:rm0iXN+7+6QKhWBokXBvFM1lYYGIEn/5E+pa4WctOzU=
-github.com/itsabgr/nats-jwt/v2 v2.1.1/go.mod h1:aKMQkl6aQAQDkarwEt5sJUhijjN+nGxwWdNk+/VsJpA=
 github.com/itsabgr/nats-jwt/v2 v2.4.1 h1:OZ28hQSY+AC43EOqvLCJRI0qtigSNvTtb56YP7beZwI=
 github.com/itsabgr/nats-jwt/v2 v2.4.1/go.mod h1:Hwnlerd3zSNHRRZn4LfSCz4ysvwGfO/g0T6NuPsZidE=
 github.com/itsabgr/nats-nkeys v0.4.0 h1:bSPnHrcPhdF5AXgRA/eOtC81M3In3p79ht+Z1PdAZjA=
