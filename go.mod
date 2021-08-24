@@ -1,4 +1,4 @@
-module github.com/itsabgr/nats-server
+module github.com/itsabgr/nats-server/v2
 
 go 1.14
 
